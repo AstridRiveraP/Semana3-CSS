@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- <link rel="icon" href="imagenes/logo2.png"> -->
         <link rel="stylesheet" href="estilos.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -124,10 +125,33 @@
                 <div class="backimg float-left" style="width:40%"> 
                     <img src="imagenes/medico2.png" alt="Médico" class="fit-image">
                 </div>
-                <div class="float-right content1" style="width:60%">
+                <div class="float-right content1" style="width:60%; height:100%">
                     <h1 class="titulos">Preparations before the vaccine</h1>
                     <br>
                     <p class="description">The success of vaccine is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</p>
+                    
+                    <div style="height:100%; width:80%;">
+                        <button  class="collapsible colorblue" id="b1" onclick="expandir(this.id)">Avoid alcoholic beverages</button>
+                        <div class="collapsible-content" id="c1">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                        <button class="collapsible colorblue" id="b2" onclick="expandir(this.id)">Avoid stress</button>
+                        <div class="collapsible-content" id="c2">
+                            <p>Stress has a profound effect on immune work. Moreover, prolonged stress can increase conrtisol production and oxidative stress in the body.</p>
+                        </div>
+                        <button class="collapsible colorblue" id="b3" onclick="expandir(this.id)">Eat healthy food</button>
+                        <div class="collapsible-content" id="c3">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                        <button class="collapsible colorblue" id="b4" onclick="expandir(this.id)">Get enough sleep</button>
+                        <div class="collapsible-content" id="c4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                        <button class="collapsible colorblue" id="b5" onclick="expandir(this.id)">Exercise or physical activity</button>
+                        <div class="collapsible-content" id="c5">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>                        
+                    </div>
                 </div>
             </section>
 
@@ -194,7 +218,7 @@
                     <p class="description three-one options">@Vaccination 2021. All rights reserved</p>
                     <p class="description three-two options">Terms & Agreements</p>
                     <p class="description three-three options">Privacy policy</p>
-
+                    <script src="./collapsible.js"></script>
 
             </footer>
         </main>
