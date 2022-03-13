@@ -41,12 +41,12 @@ nav{
     height:fit-content;
     position:absolute;
     z-index: 1;
-    width: 70%;
-    justify-content: space-evenly;
+    width: 73%;
+    justify-content: space-around;
     /* align-items:baseline; */
     align-items:center;
-    gap:1rem;
-    padding: 20px !important;
+    gap:0;
+    padding: 20px 0 !important;
     top:0%;
     left:50%;
     transform: translate(-50%,86vh) !important;
@@ -358,4 +358,34 @@ h1,h2,h3,h4, .colorblue{
     border-radius: 0 0 5px 5px;
 
 }
+.icon-cont-hor{
+    align-items:baseline;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
 
+}
+
+.yellow{
+    color:rgb(255,208,18);
+    background-color:rgba(255,208,18,0.2);
+    border: 1px solid white;
+    padding:5px;
+    box-shadow: 0px 5px 10px rgba(255,208,18, 0.20) ;
+    border-radius:5px;
+
+}
+.blue{
+    color:rgb(57,89,215);
+    background-color:rgba(57,89,215,0.2);
+    border: 1px solid white;
+    padding:5px;
+    box-shadow: 0px 5px 10px rgba(57,89,215, 0.20) ;
+    border-radius:5px;
+
+}
+
+.padding-icon-left{
+    padding-left:5%;
+
+}
